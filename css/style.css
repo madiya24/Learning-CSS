@@ -3,9 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-header {
+.container {
     border: 2px dashed darkblue;
-    width: 400px;
     padding: 1.5rem;
     margin: 1.5rem;
     font-size: 1.5rem;
