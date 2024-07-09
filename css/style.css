@@ -12,3 +12,8 @@ p {
 h1, h2 {
     color: lightblue;
 }
+
+h1 {
+    border: 2px dashed darkblue;
+    width: 50%;
+}
