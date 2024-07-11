@@ -1,18 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body {
     padding: 10%;
     font-size: 2rem;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     
 }
 
-input, button {
-    font: inherit;
+a {
+   color:hsl(207, 42%, 56%);
 }
 
-p {
-    text-align: justify;
-    text-indent: 3em;
-    text-decoration: dashed;
-    font-weight: normal
+a:visited {
+    color: purple;
+}
+
+a:hover, a:focus {
+    color: hsl(210, 38%, 57%);
+    opacity: 0.9;
     
+}
+
+a:active {
+    color: red;
 }
