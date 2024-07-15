@@ -5,33 +5,36 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.block {
-    width: 30vw;
-    height: 30vw;
-    background-color: black;
+.columns {
+    /*column-count: 4;
+    column-width: 250px; we can also do this */
+    columns: 4 250px;
+    column-rule: 3px solid #333;
+    column-gap: 3rem;
+}
+
+.columns p {
+    margin-top: 0;
+}
+
+.columns h2 {
+    margin-top: 0;
+    background-color: #333;
     color: #fff;
     padding: 1rem;
+    break-inside: avoid;
+    
 }
 
-.left {
-    float: left;
-    margin-right: 1rem;
+.columns .quote {
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #333;
+    column-span: all;
+
 }
 
-.right {
-    float: right;
-    margin-left: 1rem;
+.nowrap {
+    white-space: nowrap;
 }
-
-.clear {
-    clear: both;
-}
-
-section {
-    background-color: bisque;
-    border: 1px;
-    padding: 1rem;
-    display: flow-root;
-}
-
-/* overflow: auto element helps the contenant to content the all element /*
