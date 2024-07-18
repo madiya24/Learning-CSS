@@ -4,22 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-compable" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Css Media Queries</title>
+    <title>Css Mini-Project: Profil Card</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-   <h1>Header</h1>
-   <nav><h2>Nav</h2></nav>
+   <h1>Our Stuff</h1>
+   <nav>
+    <a href="#profile1">Ben</a>
+    <a href="#profile2">chris</a>
+    <a href="#profile3">Hardy</a>
+   </nav>
 </header>
 
 <main>
-    <h2>Main</h2>
+    <article id="profile1" class="card">
+        <figure>
+            <img src="img/profile4.jpeg" alt="Ben Coder" width="200" height="200">
+            <figcaption>Ben Coder</figcaption>
+        </figure>
+        <p><q>I code Stuff. </q></p>
+    </article>
+    <article id="profile2" class="card">
+        <figure>
+            <img src="img/profile1.jpeg" alt="Chris Design" width="200" height="200">
+            <figcaption>Chris Design</figcaption>
+        </figure>
+        <p><q>I design Stuff. </q></p>
+    </article>
+    <article id="profile3" class="card">
+        <figure>
+            <img src="img/profile3.webp" alt="Hardy Dev Rel" width="200" height="200">
+            <figcaption>Hardy <span class="nowrap">Dev Rel</span></figcaption>
+        </figure>
+        <p><q>I teacth Stuff. </q></p>
+    </article>
 </main>
 
 <footer>
-    <h2>Footer</h2>
+  <p>&copy; Acme Co.</p>
 </footer>
 
 </body>
