@@ -26,7 +26,7 @@ body {
     font-family: "Nunito", sans-serif;
     min-height: 100vh;
     background-color: aliceblue;
-    background-image:  linear-gradient(to left, steelblue, #fff);
+     background-image:  linear-gradient(to left, steelblue, #fff); 
 }
 
 .container {
@@ -80,3 +80,14 @@ body {
     height: auto;
 }
 
+.clip {
+    font-weight: 800;
+    font-size: 18rem;
+    text-align: center;
+    background-image: url("img/part6.jpeg");
+    background-size: 100%;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: hsla(0, 0%, 0%, 0.195);
+}
